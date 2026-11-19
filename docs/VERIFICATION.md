@@ -18,7 +18,7 @@ Date: 2026-11-19 (America/New_York).
 - Repeated all 300 queries through the containerized API using actual HTTP; all 300 passed with the metrics above. Tenant summaries persisted in PostgreSQL.
 - `npm run e2e`: **1 Chromium test passed**, verifying grounded search, a current citation, and a denied cross-tenant download. Screenshot saved in `docs/dashboard.png`.
 - Initial browser test had an ambiguous selector because navigation and submit controls shared a label; scoped the test to the main content and reran successfully.
-- Initial GitHub CI pending first publication.
+- GitHub CI [run 44610256262](https://github.com/KartikP12s/contextmesh-secure-rag/actions/runs/44610256262) passed, including real-model 300-query evaluation, Docker and Chromium on Ubuntu.
 
 ## Issues found and corrected
 
