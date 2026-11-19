@@ -1,0 +1,332 @@
+[
+  {
+    "tenant": "acme",
+    "groups": [
+      "hr"
+    ],
+    "source": "acme/travel-reimbursement",
+    "filename": "travel-reimbursement.md",
+    "content": "Acme travel reimbursement policy. travel reimbursement: Rail and bus tickets are reimbursed within 14 days with receipts. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Acme travel reimbursement policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Rail and bus tickets are reimbursed within 14 days with receipts."
+  },
+  {
+    "tenant": "acme",
+    "groups": [
+      "hr"
+    ],
+    "source": "acme/parental-leave",
+    "filename": "parental-leave.md",
+    "content": "Acme parental leave policy. parental leave: Parents receive 18 weeks of paid leave after notifying HR. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Acme parental leave policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Parents receive 18 weeks of paid leave after notifying HR."
+  },
+  {
+    "tenant": "acme",
+    "groups": [
+      "hr"
+    ],
+    "source": "acme/remote-work",
+    "filename": "remote-work.md",
+    "content": "Acme remote work policy. remote work: Employees may work remotely three days per week with manager approval. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Acme remote work policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Employees may work remotely three days per week with manager approval."
+  },
+  {
+    "tenant": "acme",
+    "groups": [
+      "hr"
+    ],
+    "source": "acme/learning-budget",
+    "filename": "learning-budget.md",
+    "content": "Acme learning budget policy. learning budget: Each employee receives 1200 credits for approved training each year. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Acme learning budget policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Each employee receives 1200 credits for approved training each year."
+  },
+  {
+    "tenant": "acme",
+    "groups": [
+      "hr"
+    ],
+    "source": "acme/equipment-allowance",
+    "filename": "equipment-allowance.md",
+    "content": "Acme equipment allowance policy. equipment allowance: New employees may request a monitor and ergonomic keyboard during onboarding. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Acme equipment allowance policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "New employees may request a monitor and ergonomic keyboard during onboarding."
+  },
+  {
+    "tenant": "acme",
+    "groups": [
+      "engineering"
+    ],
+    "source": "acme/database-backup",
+    "filename": "database-backup.md",
+    "content": "Acme database backup policy. database backup: PostgreSQL backups run every six hours and retention is 30 days. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Acme database backup policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "PostgreSQL backups run every six hours and retention is 30 days."
+  },
+  {
+    "tenant": "acme",
+    "groups": [
+      "engineering"
+    ],
+    "source": "acme/incident-response",
+    "filename": "incident-response.md",
+    "content": "Acme incident response policy. incident response: The on-call engineer must acknowledge critical incidents within ten minutes. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Acme incident response policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "The on-call engineer must acknowledge critical incidents within ten minutes."
+  },
+  {
+    "tenant": "acme",
+    "groups": [
+      "engineering"
+    ],
+    "source": "acme/deployment-rollback",
+    "filename": "deployment-rollback.md",
+    "content": "Acme deployment rollback policy. deployment rollback: Rollback uses the previous signed container image after a failed health check. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Acme deployment rollback policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Rollback uses the previous signed container image after a failed health check."
+  },
+  {
+    "tenant": "acme",
+    "groups": [
+      "engineering"
+    ],
+    "source": "acme/API-authentication",
+    "filename": "API-authentication.md",
+    "content": "Acme API authentication policy. API authentication: Services authenticate with short-lived workload credentials rotated hourly. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Acme API authentication policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Services authenticate with short-lived workload credentials rotated hourly."
+  },
+  {
+    "tenant": "acme",
+    "groups": [
+      "engineering"
+    ],
+    "source": "acme/release-testing",
+    "filename": "release-testing.md",
+    "content": "Acme release testing policy. release testing: Each release requires unit tests, integration tests and a security scan. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Acme release testing policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Each release requires unit tests, integration tests and a security scan."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "hr"
+    ],
+    "source": "northstar/travel-reimbursement",
+    "filename": "travel-reimbursement.md",
+    "content": "Northstar travel reimbursement policy. travel reimbursement: Rail and bus tickets are reimbursed within 14 days with receipts. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Northstar travel reimbursement policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Rail and bus tickets are reimbursed within 14 days with receipts."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "hr"
+    ],
+    "source": "northstar/parental-leave",
+    "filename": "parental-leave.md",
+    "content": "Northstar parental leave policy. parental leave: Parents receive 18 weeks of paid leave after notifying HR. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Northstar parental leave policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Parents receive 18 weeks of paid leave after notifying HR."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "hr"
+    ],
+    "source": "northstar/remote-work",
+    "filename": "remote-work.md",
+    "content": "Northstar remote work policy. remote work: Employees may work remotely three days per week with manager approval. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Northstar remote work policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Employees may work remotely three days per week with manager approval."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "hr"
+    ],
+    "source": "northstar/learning-budget",
+    "filename": "learning-budget.md",
+    "content": "Northstar learning budget policy. learning budget: Each employee receives 1200 credits for approved training each year. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Northstar learning budget policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Each employee receives 1200 credits for approved training each year."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "hr"
+    ],
+    "source": "northstar/equipment-allowance",
+    "filename": "equipment-allowance.md",
+    "content": "Northstar equipment allowance policy. equipment allowance: New employees may request a monitor and ergonomic keyboard during onboarding. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Northstar equipment allowance policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "New employees may request a monitor and ergonomic keyboard during onboarding."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "engineering"
+    ],
+    "source": "northstar/database-backup",
+    "filename": "database-backup.md",
+    "content": "Northstar database backup policy. database backup: PostgreSQL backups run every six hours and retention is 30 days. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Northstar database backup policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "PostgreSQL backups run every six hours and retention is 30 days."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "engineering"
+    ],
+    "source": "northstar/incident-response",
+    "filename": "incident-response.md",
+    "content": "Northstar incident response policy. incident response: The on-call engineer must acknowledge critical incidents within ten minutes. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Northstar incident response policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "The on-call engineer must acknowledge critical incidents within ten minutes."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "engineering"
+    ],
+    "source": "northstar/deployment-rollback",
+    "filename": "deployment-rollback.md",
+    "content": "Northstar deployment rollback policy. deployment rollback: Rollback uses the previous signed container image after a failed health check. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Northstar deployment rollback policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Rollback uses the previous signed container image after a failed health check."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "engineering"
+    ],
+    "source": "northstar/API-authentication",
+    "filename": "API-authentication.md",
+    "content": "Northstar API authentication policy. API authentication: Services authenticate with short-lived workload credentials rotated hourly. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Northstar API authentication policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Services authenticate with short-lived workload credentials rotated hourly."
+  },
+  {
+    "tenant": "northstar",
+    "groups": [
+      "engineering"
+    ],
+    "source": "northstar/release-testing",
+    "filename": "release-testing.md",
+    "content": "Northstar release testing policy. release testing: Each release requires unit tests, integration tests and a security scan. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Northstar release testing policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Each release requires unit tests, integration tests and a security scan."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "hr"
+    ],
+    "source": "orbit/travel-reimbursement",
+    "filename": "travel-reimbursement.md",
+    "content": "Orbit travel reimbursement policy. travel reimbursement: Rail and bus tickets are reimbursed within 14 days with receipts. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Orbit travel reimbursement policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Rail and bus tickets are reimbursed within 14 days with receipts."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "hr"
+    ],
+    "source": "orbit/parental-leave",
+    "filename": "parental-leave.md",
+    "content": "Orbit parental leave policy. parental leave: Parents receive 18 weeks of paid leave after notifying HR. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Orbit parental leave policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Parents receive 18 weeks of paid leave after notifying HR."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "hr"
+    ],
+    "source": "orbit/remote-work",
+    "filename": "remote-work.md",
+    "content": "Orbit remote work policy. remote work: Employees may work remotely three days per week with manager approval. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Orbit remote work policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Employees may work remotely three days per week with manager approval."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "hr"
+    ],
+    "source": "orbit/learning-budget",
+    "filename": "learning-budget.md",
+    "content": "Orbit learning budget policy. learning budget: Each employee receives 1200 credits for approved training each year. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Orbit learning budget policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Each employee receives 1200 credits for approved training each year."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "hr"
+    ],
+    "source": "orbit/equipment-allowance",
+    "filename": "equipment-allowance.md",
+    "content": "Orbit equipment allowance policy. equipment allowance: New employees may request a monitor and ergonomic keyboard during onboarding. This synthetic document applies to the hr group. Current edition November 2026.",
+    "old_content": "Orbit equipment allowance policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "New employees may request a monitor and ergonomic keyboard during onboarding."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "engineering"
+    ],
+    "source": "orbit/database-backup",
+    "filename": "database-backup.md",
+    "content": "Orbit database backup policy. database backup: PostgreSQL backups run every six hours and retention is 30 days. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Orbit database backup policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "PostgreSQL backups run every six hours and retention is 30 days."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "engineering"
+    ],
+    "source": "orbit/incident-response",
+    "filename": "incident-response.md",
+    "content": "Orbit incident response policy. incident response: The on-call engineer must acknowledge critical incidents within ten minutes. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Orbit incident response policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "The on-call engineer must acknowledge critical incidents within ten minutes."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "engineering"
+    ],
+    "source": "orbit/deployment-rollback",
+    "filename": "deployment-rollback.md",
+    "content": "Orbit deployment rollback policy. deployment rollback: Rollback uses the previous signed container image after a failed health check. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Orbit deployment rollback policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Rollback uses the previous signed container image after a failed health check."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "engineering"
+    ],
+    "source": "orbit/API-authentication",
+    "filename": "API-authentication.md",
+    "content": "Orbit API authentication policy. API authentication: Services authenticate with short-lived workload credentials rotated hourly. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Orbit API authentication policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Services authenticate with short-lived workload credentials rotated hourly."
+  },
+  {
+    "tenant": "orbit",
+    "groups": [
+      "engineering"
+    ],
+    "source": "orbit/release-testing",
+    "filename": "release-testing.md",
+    "content": "Orbit release testing policy. release testing: Each release requires unit tests, integration tests and a security scan. This synthetic document applies to the engineering group. Current edition November 2026.",
+    "old_content": "Orbit release testing policy. OBSOLETE: consult paper archives; this superseded policy is no longer applicable.",
+    "fact": "Each release requires unit tests, integration tests and a security scan."
+  }
+]

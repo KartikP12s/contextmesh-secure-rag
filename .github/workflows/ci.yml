@@ -1,0 +1,39 @@
+name: Verify ContextMesh
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: pip install -r requirements.lock && pip install --no-deps -e .
+      - run: ruff check backend tests scripts && ruff format --check backend tests scripts
+      - run: docker compose up -d --build --wait
+      - run: pytest -q
+      - run: python scripts/evaluate.py
+      - run: pip-audit -r requirements.lock
+      - run: npm ci && npm run build && npm test && npm audit --audit-level=high
+        working-directory: frontend
+      - run: npx playwright install --with-deps chromium && npm run e2e
+        working-directory: frontend
+      - if: always()
+        run: docker compose logs --no-color > compose.log && docker compose down
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: contextmesh-verification
+          path: |
+            docs/evaluation.json
+            docs/EVALUATION.md
+            docs/dashboard.png
+            compose.log
+            frontend/test-results
